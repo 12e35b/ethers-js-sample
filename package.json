@@ -1,0 +1,17 @@
+{
+  "name": "ethers-js-sample",
+  "version": "1.0.0",
+  "description": "Ethers.js sample project",
+  "main": "index.js",
+  "scripts": {
+    "account_balance": "node src/get_account_balance.js",
+    "contract_info": "node src/get_contract_info.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "ethers": "5.4"
+  }
+}
